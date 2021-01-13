@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body,
+html {
+    font-family: Roboto, sans-serif;
+}
+
+nav {
+    background-color: #329cb2;
+}
+
+.name {
+    font-family: Orbitron, sans-serif;
+}
+
+header {
+    background-color: #329cb2;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #329cb2 !important;
+}
+
+.btn-primary:hover{
+    background-color: #094652 !important;
+}
+
+@media (min-width: 768px) {
+    header {
+        background-image: url(/img/SoAF_Header_Image.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+    }
+
+    .hero {
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+
+}
